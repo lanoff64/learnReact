@@ -1,15 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
-function App() {
+import HelloWorld from "./components/HelloWorld/HelloWorld";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-          <p>
-              Hello world!!!
-          </p>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div className="App-wrapper">
+
+
+        <HelloWorld/>
+
+
+
     </div>
   );
 }

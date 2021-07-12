@@ -1,0 +1,14 @@
+.helloWorld{
+    border: 1px solid black;
+    margin: 200px 0 0 0;
+    background-color: lightblue;
+}
+
+
+.helloWorld p{
+    font-size: 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: blue 1px 0 5px;
+}

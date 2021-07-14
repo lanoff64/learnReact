@@ -21,6 +21,13 @@ const Navbar = () => {
 
             </div>
 
+            <div className={classes.item}>
+                <NavLink to='/toggle'  activeClassName={classes.activeLink}>
+                    Toggle
+                </NavLink>
+
+            </div>
+
         </nav>
 
 

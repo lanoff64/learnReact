@@ -6,6 +6,7 @@ import Header from "./components/HeadNavContent/Header/Header";
 import Navbar from "./components/HeadNavContent/NavBar/Navbar";
 import {Route} from "react-router-dom";
 import Toggle from "./components/HeadNavContent/Content/Button/Toggle";
+import Greeting from "./components/HeadNavContent/Content/Greeting/Greeting";
 
 const App = () => {
     return (
@@ -17,6 +18,8 @@ const App = () => {
                 <Route path={'/helloWorld'} component={HelloWorld}/>
                 <Route path={'/clock'} component={Clock}/>
                 <Route path={'/toggle'} component={Toggle}/>
+                <Route path={'/greeting'}
+                       render={()=> <Greeting isLoggedIn={false} /> }/>
 
 
 

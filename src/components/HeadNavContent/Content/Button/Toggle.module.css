@@ -1,5 +1,4 @@
 .toggleOn{
-    border: 1px solid black;
     font-size: 20px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
@@ -7,7 +6,4 @@
     margin: 50px 0 0 0;
     padding: 100px 100px 100px 50px;
     text-align: center;
-     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-
 }

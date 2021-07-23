@@ -8,6 +8,10 @@ import {Route} from "react-router-dom";
 import Toggle from "./components/HeadNavContent/Content/Toggle/Toggle";
 import Greeting from "./components/HeadNavContent/Content/Greeting/Greeting";
 import LoginControl from "./components/HeadNavContent/Content/LoginControl/LoginControl";
+import NameForm from "./components/HeadNavContent/Content/Forms/Forms";
+import EssayForm from "./components/HeadNavContent/Content/Forms/Textarea";
+import FlavorForm from "./components/HeadNavContent/Content/Forms/Select";
+import Reservation from "./components/HeadNavContent/Content/Forms/Reservaction";
 
 const App = () => {
     return (
@@ -23,7 +27,14 @@ const App = () => {
                        render={()=> <Greeting isLoggedIn={false} /> }/>
                 <Route path={'/logincontrol'}
                        render={()=> <LoginControl /> }/>
-
+                <Route path={'/forms'}
+                       render={()=> <NameForm /> }/>
+                <Route path={'/formsTextArea'}
+                       render={()=> <EssayForm /> }/>
+                <Route path={'/flavorForm'}
+                       render={()=> <FlavorForm /> }/>
+                <Route path={'/reservation '}
+                       render={()=> <Reservation  /> }/>
 
 
 

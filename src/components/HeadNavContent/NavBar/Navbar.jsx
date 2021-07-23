@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./Navbar.module.css"
 import {NavLink} from "react-router-dom";
-import LoginControl from "../Content/LoginControl/LoginControl";
+
+
 
 const Navbar = () => {
 
@@ -34,9 +35,37 @@ const Navbar = () => {
                     Greeting
                 </NavLink>
 
-            </div><div className={classes.item}>
+            </div>
+            <div className={classes.item}>
                 <NavLink to='/logincontrol'  activeClassName={classes.activeLink}>
                     LoginControl
+                </NavLink>
+
+            </div>
+
+            <div className={classes.item}>
+                <NavLink to='/forms'  activeClassName={classes.activeLink}>
+                    NameForm
+                </NavLink>
+
+            </div>
+
+            <div className={classes.item}>
+                <NavLink to='/formsTextArea'  activeClassName={classes.activeLink}>
+                    TextArea
+                </NavLink>
+
+            </div>
+            <div className={classes.item}>
+                <NavLink to='/flavorForm'  activeClassName={classes.activeLink}>
+                    Flavor Form
+                </NavLink>
+
+            </div>
+
+            <div className={classes.item}>
+                <NavLink to='/reservation'  activeClassName={classes.activeLink}>
+                    Reservation
                 </NavLink>
 
             </div>

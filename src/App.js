@@ -12,6 +12,7 @@ import NameForm from "./components/HeadNavContent/Content/Forms/Forms";
 import EssayForm from "./components/HeadNavContent/Content/Forms/Textarea";
 import FlavorForm from "./components/HeadNavContent/Content/Forms/Select";
 import Reservation from "./components/HeadNavContent/Content/Forms/Reservaction";
+import Calculator from "./components/HeadNavContent/Content/CalculatorOfWater/Calculator";
 
 const App = () => {
     return (
@@ -36,7 +37,8 @@ const App = () => {
                 <Route path={'/reservation '}
                        render={()=> <Reservation  /> }/>
 
-
+                <Route path={'/calculator'}
+                       render={()=> <Calculator /> }/>
 
             </div>
 

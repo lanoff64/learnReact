@@ -70,6 +70,14 @@ const Navbar = () => {
 
             </div>
 
+
+            <div className={classes.item}>
+                <NavLink to='/calculator'  activeClassName={classes.activeLink}>
+                    Calculator
+                </NavLink>
+
+            </div>
+
         </nav>
 
 

@@ -24,8 +24,8 @@ class ProductRow extends React.Component {
 
         return (
             <tr>
-                <td style={{border:'1px solid green'}}>{name}</td>
-                <td style={{border:'1px solid red'}}>{product.price}</td>
+                <td>{name}</td>
+                <td>{product.price}</td>
             </tr>
         );
     }

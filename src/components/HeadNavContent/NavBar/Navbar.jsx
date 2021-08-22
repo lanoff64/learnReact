@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Navbar.module.css"
 import {NavLink} from "react-router-dom";
+import FilterableProductTable from "../Content/Product/FilterableProductTable";
 
 
 
@@ -74,6 +75,13 @@ const Navbar = () => {
             <div className={classes.item}>
                 <NavLink to='/calculator'  activeClassName={classes.activeLink}>
                     Calculator
+                </NavLink>
+
+            </div>
+
+            <div className={classes.item}>
+                <NavLink to='/product'  activeClassName={classes.activeLink}>
+                    Product
                 </NavLink>
 
             </div>

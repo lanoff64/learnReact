@@ -1,6 +1,5 @@
 import React from "react";
 
-debugger
 class Reservation extends React.Component {
     constructor(props) {
         super(props);
